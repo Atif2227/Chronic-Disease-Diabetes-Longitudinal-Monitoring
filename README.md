@@ -5,18 +5,17 @@ Developed a multi page Power BI dashboard for diabetes management, enabling exec
 **Domain:** Healthcare Analytics  
 **Tools:** Power BI, SQL, Python, Azure Data Factory, Excel
 
----
 
 ## 🔗 View Live Demo
 
 👉 **[View Power BI Dashboard](https://app.powerbi.com/)**  
----
+
 ## Key Outcomes & Impact
--	**Improved Risk Visibility:* High risk patients identified early using longitudinal patterns
+-	**Improved Risk Visibility:** High-risk patients identified early using longitudinal patterns
 -	**Better Care Prioritization:** Clinicians can focus on patients with worsening trends or overdue monitoring
--	**Operational Insight:** Care gaps surfaced clearly, separating follow up failures from clinical deterioration
+-	**Operational Insight:** Care gaps surfaced clearly, separating follow-up failures from clinical deterioration
 -	**Provider Awareness:** Risk burden distributed transparently across provider panels
--	**Strategic Value:** Enables proactive chronic care strategies aligned with value based care models
+-	**Strategic Value:** Enables proactive chronic care strategies aligned with value-based care models
 ---
 ## Client Problem
 Healthcare organizations managing large diabetic populations often struggle with **fragmented clinical data, limited longitudinal visibility**, and **reactive care models**.
@@ -45,18 +44,21 @@ The solution integrates laboratory, encounter, and patient data into a clean ana
 ---
 ## Analytics Architecture
 -	**Data Ingestion:** Automated pipelines for clinical and operational data
--	**Data Modeling:** Patient centric star schema with longitudinal fact tables
+-	**Data Modeling:** Patient-centric star schema with longitudinal fact tables
 -	**Feature Engineering:** 
 -	Risk stratification
 -	Disease control classification
 -	Trend detection
 -	Care gap identification
 -	**Visualization:** Interactive Power BI dashboards tailored to different healthcare stakeholders
+  
 ---
+
 ## Dashboard Walkthrough
 ### 1. Executive Overview
 **Population level diabetes risk overview**
 This page provides leadership with a **30 second snapshot** of overall diabetes management performance.
+
 **Key Insights**
 -	Total diabetic population size
 -	Percentage of high risk patients
@@ -67,7 +69,7 @@ This page provides leadership with a **30 second snapshot** of overall diabetes 
 -	Reveals hidden risk not visible in averages
 -	Highlights systemic care gaps
 -	Supports strategic planning and resource allocation
----
+
 ### 2. Clinical Worklist – High Risk Patients
 **Identify patients requiring immediate intervention**
 Designed for care managers and clinicians, this page focuses on **actionability**.
@@ -75,31 +77,31 @@ Designed for care managers and clinicians, this page focuses on **actionability*
 -	High risk patient count and care gap indicators
 -	Patient level table with: 
 -	Latest HbA1c
-
 -	Risk drivers
-
 -	Trend classification
-
 -	Care gap duration
-
 -	Provider attribution
+
 **Value**
 -	Enables targeted outreach
 -	Reduces reactive care
 -	Supports weekly and daily care coordination workflows
 ---
+
 ### 3. Provider Performance & Risk Burden
 **Provider level view of diabetes risk and care gaps**
 This page evaluates how patient risk and care gaps are distributed across providers.
 **Key Insights**
--	High risk patient percentage by provider
+-	High-risk patient percentage by provider
 -	Care gap prevalence by provider
--	Risk driver composition (clinical vs follow up related)
+-	Risk driver composition (clinical vs follow-up related)
+
 **Value**
 -	Identifies variation across provider panels
 -	Supports quality improvement initiatives
--	Encourages system level optimization rather than blame
+-	Encourages system-level optimization rather than blame
 ---
+
 ### 4. Patient Longitudinal Journey
 **Longitudinal view of individual patient disease progression**
 This page allows clinicians to deep dive into an individual patient’s history.
@@ -113,6 +115,7 @@ This page allows clinicians to deep dive into an individual patient’s history.
 -	Identifies missed monitoring opportunities
 -	Supports personalized care discussions
 ---
+
 ## 📸 Dashboard Screenshots
 
 ### Executive Overview
@@ -127,26 +130,26 @@ This page allows clinicians to deep dive into an individual patient’s history.
 ### Patient Longitudinal Journey 
 ![](Images/0004.jpg)
 
-
 ## Why This Solution Works
 -	Patient centric design supports both population and individual care paths
 -	Longitudinal analytics goes beyond snapshot reporting
 -	Clear separation of executive, clinical, provider, and patient views
 -	Clinically interpretable visuals aligned with real healthcare workflows
 ---
+
 ## Key Learnings
 -	Population averages often hide individual deterioration
 -	Care gaps are as critical as clinical measurements
 -	Longitudinal monitoring is essential for chronic disease programs
--	Well designed dashboards improve both decision making and clinical trust
+-	Well-designed dashboards improve both decision-making and clinical trust
 ---
 
 
 ## Conclusion
-This project demonstrates how **integrated healthcare analytics** can transform chronic disease management from reactive monitoring to **proactive, data driven care**.
+This project demonstrates how **integrated healthcare analytics** can transform chronic disease management from reactive monitoring to **proactive, data-driven care**.
 By aligning executive strategy, clinical operations, provider performance, and patient level insights, the solution enables better outcomes, improved efficiency, and long term cost reduction.
 
-## 🔥 End-to-End Architecture
+## End-to-End Architecture
 
     ┌──────────────────────────────┐
     │   Data Sources               │
@@ -162,28 +165,14 @@ By aligning executive strategy, clinical operations, provider performance, and p
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
-    │ Feature Engineering (Python) │
+    │ Feature Engineering (Python) |
+    │              &               |
+    |             EDA              |
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
-    │ ML Model (Gradient Boosting) │
-    └─────────────┬────────────────┘
-                  ↓
-    ┌──────────────────────────────┐
-    │ Power BI Dashboards          │
+    │    Power BI Dashboards       │
     └──────────────────────────────┘
 
-    
----
-## 📁 Project Structure
 
-```text
-project-root/
-│
-├── data/                # Raw and processed datasets
-├── notebooks/           # Jupyter notebooks for EDA & modeling
-├── pipelines/           # ETL pipelines (ADF / scripts)
-├── dashboards/          # Power BI files (.pbix)
-├── images/              # Dashboard screenshots
-└── README.md            # Project documentation
 
