@@ -35,7 +35,7 @@ Design an **end to end population health analytics solution** that enables:
 The goal was to support **proactive care**, improve outcomes, and reduce long term complications.
 ---
 ## Solution Overview
-I developed a ** multi layer Power BI analytics solution** that transforms raw clinical data into actionable insights across four perspectives:
+I developed a **multi layer Power BI analytics solution** that transforms raw clinical data into actionable insights across four perspectives:
 1.	**Population (Executive Overview)**
 2.	**Clinical Operations (High Risk Worklist)**
 3.	**Provider Performance**
@@ -105,6 +105,7 @@ This page evaluates how patient risk and care gaps are distributed across provid
 ### 4. Patient Longitudinal Journey
 **Longitudinal view of individual patient disease progression**
 This page allows clinicians to deep dive into an individual patient’s history.
+
 **Key Features**
 -	HbA1c timeline with clinical reference threshold
 -	Care gap visualization (days since last test)
@@ -152,16 +153,16 @@ By aligning executive strategy, clinical operations, provider performance, and p
 ## End-to-End Architecture
 
     ┌──────────────────────────────┐
-    │   Data Sources               │
+    │         Data Sources         │
     │  (EHR | Claims | Patient)    │
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
-    │ Azure Data Factory (ETL)     │
+    │   Azure Data Factory (ETL)   │
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
-    │ Azure SQL Data Warehouse     │
+    │   Azure SQL Data Warehouse   │
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
@@ -171,7 +172,7 @@ By aligning executive strategy, clinical operations, provider performance, and p
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
-    │    Power BI Dashboards       │
+    │     Power BI Dashboards      │
     └──────────────────────────────┘
 
 
