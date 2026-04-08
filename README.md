@@ -154,7 +154,7 @@ By aligning executive strategy, clinical operations, provider performance, and p
 
     ┌──────────────────────────────┐
     │         Data Sources         │
-    │  (EHR | Claims | Patient)    │
+    │    (EHR | Billing systems)   │
     └─────────────┬────────────────┘
                   ↓
     ┌──────────────────────────────┐
