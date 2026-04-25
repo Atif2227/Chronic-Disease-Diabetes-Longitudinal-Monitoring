@@ -1,7 +1,7 @@
 # Chronic-Disease-Diabetes-Longitudinal-Monitoring
-Developed a multi page Power BI dashboard for diabetes management, enabling executives, clinicians, and providers to monitor population risk, identify high risk patients, analyze provider burden, and track individual patient disease progression for proactive chronic care.
+Developed a multi page Power BI dashboard for diabetes management, enabling executives, clinicians, and providers to monitor population risk, identify high-risk patients, analyze provider burden, and track individual patient disease progression for proactive chronic care.
 
-**Role:** Lead Data Consultant & AI Architect  
+**Role:** Lead Healthcare Data Analyst, Consultant & AI Architect  
 **Domain:** Healthcare Analytics  
 **Tools:** Power BI, SQL, Python, Azure Data Factory, Excel
 
@@ -175,5 +175,14 @@ By aligning executive strategy, clinical operations, provider performance, and p
     │     Power BI Dashboards      │
     └──────────────────────────────┘
 
+---
 
+## 👤 Consultant
+
+**Atif Noorul Hasan** <br />
+Healthcare Analytics Consultant <br />
+Business Intelligence | Data Analytics | Dashboard Design <br />
+
+🔗 Website – https://atifdata.com <br />
+✉️ Email – atif@atifdata.com
 
