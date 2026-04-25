@@ -17,7 +17,7 @@ Developed a multi page Power BI dashboard for diabetes management, enabling exec
 -	**Provider Awareness:** Risk burden distributed transparently across provider panels
 -	**Strategic Value:** Enables proactive chronic care strategies aligned with value-based care models
 ---
-## Client Problem
+## 🛑 Business Problem
 Healthcare organizations managing large diabetic populations often struggle with **fragmented clinical data, limited longitudinal visibility**, and **reactive care models**.
 Leadership lacked a unified view to answer critical questions:
 -	How many diabetic patients are currently at risk?
@@ -34,7 +34,7 @@ Design an **end to end population health analytics solution** that enables:
 -	Patient level longitudinal disease tracking
 The goal was to support **proactive care**, improve outcomes, and reduce long term complications.
 ---
-## Solution Overview
+## ✔ Solution Overview
 I developed a **multi layer Power BI analytics solution** that transforms raw clinical data into actionable insights across four perspectives:
 1.	**Population (Executive Overview)**
 2.	**Clinical Operations (High Risk Worklist)**
